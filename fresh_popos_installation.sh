@@ -8,10 +8,14 @@ echo "~~~CONFIGUREING NEOFETCH AND FIXING SOUND~~~"
 echo "neofetch" >> ~/.bashrc;
 echo "options snd-hda-intel power_save=0 power_save_controller=N" >> /etc/modprobe.d/alsa-base.conf
 
+
 echo "~~~INSTALLING PACKAGES~~~"
-apt install discord, boxes, netstat-tools, sensors, neofetch, flameshot, git, obs-studio, postman, okular, postgresql, openjdk-17-jdk, openjdk-17-doc, openjdk-17-source -y;
+apt install alsa-tools discord boxes netstat-tools sensors neofetch flameshot obs-studio postman okular postgresql openjdk-17-jdk openjdk-17-doc openjdk-17-source -y;
 sleep 2;
 reboot;
+
+#in alsa-mixer change automute to "disabled"
+#the issue where the sound card will go into power-save mode will fix itself after some alsactl restore and reboots ig?? it has always been random for me but always fixed itself in the end :v
 #wget https://s3.amazonaws.com/outline-releases/client/linux/stable/Outline-Client.AppImage
 #confgiure harddrive (chmod, chown)
 #disable sudo with `sudo visudo` and then at the end of the file add next line:
