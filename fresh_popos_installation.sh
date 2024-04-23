@@ -26,3 +26,5 @@ reboot;
 #remove blur https://extensions.gnome.org/extension/2935/control-blur-effect-on-lock-screen/
 #removable media icon https://extensions.gnome.org/extension/7/removable-drive-menu/
 #sound extention https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+git config --global user.name "narcissusTheFlower"
+git config --global user.email narcissus_mail@mail.ru
