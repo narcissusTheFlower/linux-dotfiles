@@ -7,7 +7,7 @@ apt upgrade -y
 echo "~~~CONFIGUREING NEOFETCH AND FIXING SOUND~~~"
 echo "neofetch" >> ~/.bashrc;
 echo "options snd-hda-intel power_save=0 power_save_controller=N" >> /etc/modprobe.d/alsa-base.conf
-
+#idk what it does but it might fix sound modprobe -r snd-hda-intel && modprobe snd-hda-intel
 
 echo "~~~INSTALLING PACKAGES~~~"
 apt install alsa-tools discord boxes sensors neofetch flameshot obs-studio okular postgresql openjdk-17-jdk openjdk-17-doc openjdk-17-source -y;
