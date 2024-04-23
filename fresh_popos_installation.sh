@@ -22,4 +22,5 @@ reboot;
 #"user" ALL=(ALL) NOPASSWD: ALL
 #configure gnome extentions through the website first and then import settings from "dash-to-panel-gnome-extentions" in this repo
 #dash to panel extention https://extensions.gnome.org/extension/1160/dash-to-panel/
+#remove blur https://extensions.gnome.org/extension/2935/control-blur-effect-on-lock-screen/
 
