@@ -11,6 +11,7 @@ echo "options snd-hda-intel power_save=0 power_save_controller=N" >> /etc/modpro
 
 echo "~~~INSTALLING PACKAGES~~~"
 apt install alsa-tools discord boxes sensors neofetch flameshot obs-studio okular postgresql openjdk-17-jdk openjdk-17-doc openjdk-17-source -y;
+wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.12/obsidian_1.5.12_amd64.deb;
 sleep 2;
 reboot;
 
