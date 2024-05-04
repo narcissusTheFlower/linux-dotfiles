@@ -29,3 +29,7 @@ reboot;
 #sound extention https://extensions.gnome.org/extension/906/sound-output-device-chooser/
 git config --global user.name "narcissusTheFlower"
 git config --global user.email narcissus_mail@mail.ru
+
+#Screenshot
+#Remove default gnome keyboard shortcut in Settings -> Keyboard -> Keyboard Shortcuts. Find "Interactive screenshot" option and remove the key
+#Then at the bottom of shortcuts create a custom one and bind it to command "flameshot gui"
