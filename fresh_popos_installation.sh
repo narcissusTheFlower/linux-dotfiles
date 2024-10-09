@@ -1,6 +1,8 @@
 #/bin/bash
 
+
 sudo su; 
+add-apt-repository ppa:jonaski/strawberry
 apt update; 
 apt upgrade -y
 
@@ -10,7 +12,7 @@ echo "options snd-hda-intel power_save=0 power_save_controller=N" >> /etc/modpro
 #idk what it does but it might fix sound modprobe -r snd-hda-intel && modprobe snd-hda-intel
 
 echo "~~~INSTALLING PACKAGES~~~"
-apt install alsa-tools discord boxes sensors neofetch flameshot obs-studio okular postgresql openjdk-17-jdk openjdk-17-doc openjdk-17-source -y;
+apt install alsa-tools discord boxes sensors neofetch flameshot obs-studio okular postgresql openjdk-17-jdk openjdk-17-doc openjdk-17-source strawberry -y;
 wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.12/obsidian_1.5.12_amd64.deb;
 sleep 2;
 reboot;
