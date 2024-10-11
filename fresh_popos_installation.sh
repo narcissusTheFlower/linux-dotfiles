@@ -19,7 +19,6 @@ reboot;
 
 #in alsa-mixer change automute to "disabled"
 #the issue where the sound card will go into power-save mode will fix itself after some alsactl restore and reboots ig?? it has always been random for me but always fixed itself in the end :v
-#wget https://s3.amazonaws.com/outline-releases/client/linux/stable/Outline-Client.AppImage
 #confgiure harddrive (chmod, chown)
 #disable sudo with `sudo visudo` and then at the end of the file add next line:
 #"user" ALL=(ALL) NOPASSWD: ALL
