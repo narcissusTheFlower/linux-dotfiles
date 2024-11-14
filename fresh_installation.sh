@@ -9,7 +9,7 @@ sudo zypper addrepo -cfp 90 'https://ftp.gwdg.de/pub/linux/misc/packman/suse/ope
 sudo zypper ref
 sudo zypper update
 sudo zypper dup --from pacman --allow-vendor-change
-
+sudo zypper install --from packman ffmpeg gstreamer-plugins-{good,bad,ugly,libav} libavcodec vlc-codecs
 sudo zypper in gnome-boxes git traceroute
 
 git config --global user.name "narcissusTheFlower"
